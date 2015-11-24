@@ -1,0 +1,40 @@
+#!/bin/sh
+
+echo "I AM A FISH"
+
+exit 0
+
+###############################################################################
+### Documentation #############################################################
+###############################################################################
+
+# Documentation.  Use a hack to hide this from the shell.  Because of the
+# above exit line, this should never be executed.
+DOCS=<<__END_OF_DOCS__
+
+=head1 NAME
+
+ecf-foo - does nothing
+
+=head1 SYNOPSIS
+
+B<ecf-foo>
+
+=head1 DESCRIPTION
+
+Just a sample script to install with a sample ecf-foo RPM.
+
+=head1 AUTHOR
+
+Tim Skirvin <tskirvin@killfile.org>
+
+=head1 LICENSE
+
+Copyright 2015, Fermi National Accelerator Laboratory
+
+This program is free software; you may redistribute it and/or modify
+it under the same terms as Perl itself.
+
+=cut
+
+__END_OF_DOCS__
