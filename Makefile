@@ -1,1 +1,1 @@
-../ecf-rpmtools/Makefile
+/usr/libexec/ecf-rpmtools/Makefile

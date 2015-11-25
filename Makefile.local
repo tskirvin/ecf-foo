@@ -1,11 +1,11 @@
 ##############################################################################
-### cms-rpmtools Makefile.local ##############################################
+### ecf-rpmtools Makefile.local ##############################################
 ##############################################################################
-## Meant for use with the Makefile from cms-rpmtools.  Assuming the package is 
+## Meant for use with the Makefile from ecf-rpmtools.  Assuming the package is 
 ## at the same level, run:
 ##
-##    ln -s ../cms-rpmtools/Makefile .
-##    cp ../cms-rpmtools/Makefile.local .
+##    ln -s /usr/libexec/ecf-rpmtools/Makefile .
+##    cp /usr/libexec/ecf-rpmtools/Makefile.local .
 ##
 ## This should give you access to a consistent Makefile.  You're in charge 
 ## of your own *.spec file.
