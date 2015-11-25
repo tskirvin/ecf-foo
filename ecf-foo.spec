@@ -1,9 +1,9 @@
 Name:           ecf-foo
 Group:          System Environment/Libraries
 Version:        1.0.0
-Release:        0%{?dist}
-Summary:        CMS RPM Tools
-URL:            http://ecf-git.fnal.gov/ecf-foo
+Release:        1%{?dist}
+Summary:        ECF "blank" rpm, for testing ecf-rpmtools
+URL:            https://ecf-git.fnal.gov/ecf-foo
 
 License:        Artistic 2.0
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
@@ -15,7 +15,8 @@ BuildRequires:  rsync
 Source:         %{name}-%{version}-%{release}.tar.gz
 
 %description
-Just an empty rpm.
+Just an empty rpm.  It's useful as a template, and as a test suite for the 
+ecf-rpmtools Makefile.
 
 %prep
 %setup -q -c -n ecf-foo
@@ -55,5 +56,8 @@ done
 /usr/share/man/man8/*
 
 %changelog
-* Thu Jun  4 2015  Tim Skirvin <tskirvin@fnal.gov>      1.0.0-0
+* Wed Nov 25 2015  Tim Skirvin <tskirvin@fnal.gov>      1.0.0-1
+- added some docs, touched up the .spec file
+
+* Wed Nov 25 2015  Tim Skirvin <tskirvin@fnal.gov>      1.0.0-0
 - initial commit
