@@ -12,7 +12,7 @@ BuildArch:      noarch
 Requires:       rsync
 BuildRequires:  rsync
 
-Source:         ecf-foo-%{version}-%{release}.tar.gz
+Source:         %{name}-%{version}-%{release}.tar.gz
 
 %description
 Just an empty rpm.

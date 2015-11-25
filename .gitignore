@@ -1,2 +1,5 @@
 .*.sw*
 *.tar.gz
+build.log
+state.log
+root.log
